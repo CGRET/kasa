@@ -1,9 +1,9 @@
 # kasa
-Sample code for kasa using pyHS100
+Sample code for kasa using [pyHS100](https://github.com/GadgetReactor/pyHS100)
 
 Create a conda environment and install the pyHS100 package:
 ```bash
-conda create --name kasa python=3
+conda create --name kasa python=2
 conda activate kasa
 pip install pyHS100
 ```
@@ -16,3 +16,5 @@ phys100 --host 10.10.0.239 emeter
 ```
 Which produces JSON output.
 
+# References
+ * [pyHS100](https://github.com/GadgetReactor/pyHS100)
